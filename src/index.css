@@ -1,13 +1,295 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.patrick-hand-sc {
+  font-family: "Patrick Hand SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BenzGrotesk";
+  src: url(./body/font/Benz\ Grotesk.ttf);
+  font-style: normal;
+}
+
+
+.logo-image-text{
+  font-family: "Orbitron";
+  font-weight: 900;
+}
+.manu-section{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  font-family: Patrick Hand SC;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+}
+.button-area{
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-family: "Orbitron";
+  font-weight: 900;
+  line-height: 20px;
+}
+.step_into{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  text-align: left;
+}
+.powered-by{
+  font-family: "Orbitron";
+  font-weight: 900;
+  line-height: 31.03px;
+  text-align: left;
+  color: #686666;
+  border-radius: 77.71px;
+}
+
+.buttonsoculmedia{
+  font-family: "Orbitron";
+  font-weight: 900;
+  line-height: 21.83px;
+  text-align: left;
+  color: #0B0101;
+  border: 1.24px solid #000000
+}
+.PUGGY-PRESALE-text{
+  font-family: "Orbitron";
+  font-weight: 900;
+  line-height: 34.22px;
+  text-align: left;
+}
+
+.pages1backgrouondimages{
+  background-image: url(./body/pages1/pages1images/Group\ 1171275385.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.freamimage{
+  background-image: url(./body/pages1/pages1images/Group\ 1171275386.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.slidepoggy{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 35px;
+  text-align: center;
+  box-shadow: 0px 13.21px 19.74px 0px #00000000;
+}
+
+.slidepoggypragraph{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  text-align: center;
+
+}
+
+.aoutsection{
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00000080;
+  font-family: "BenzGrotesk";
+  font-size: 100px;
+  font-weight: 850;
+  line-height: 100px;
+  text-align: center;
+  /* text-border: 1px solid #00000080; */
+  text-shadow: 4px 6px 0px  #21A4F6;
+  color: #fff;
+
+}
+
+.diveindiscover{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 38.78px;
+  text-align: left;
+}
+
+.coming-soon{
+  font-family: "BenzGrotesk";
+  font-size: 40px;
+  font-weight: 850;
+  line-height: 40px;
+  text-align: left;
+}
+
+.soculmediabutton{
+  font-family: "Orbitron";
+  font-weight: 900;
+  line-height: 21.41px;
+  text-align: left;
+  color: #2BC9B9;
+  background: #F9FFFD;
+  border: 1.17px solid #2BC9B9
+}
+
+.pagethreebackgroundimage{
+  background-image: url(./body/page3/page3image/Group\ 1000003634.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.max-supply{
+  font-family: "BenzGrotesk";
+  font-weight: 900;
+  text-align: center;
+
+}
+
+.Tokenomics{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 80.68px;
+  text-align: left;
+}
+
+.pax-suppely{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 71.05px;
+  text-align: center;
+}
+
+.doted-area{
+  font-family: "Orbitron";
+  font-weight: 700;
+  line-height: 31.31px;
+  text-align: left;
+  color: #fff;
+}
+
+.ROADMAPhreo{
+  -webkit-text-stroke-width: 1.74px;
+  -webkit-text-stroke-color: #00000080;
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 100px;
+  text-align: left;
+  color: #fff;
+  text-shadow: 4px 6px 0px #000000;
+
+}
+
+.edive-in-discover-p{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+}
+
+.road-map-boxing{
+  box-shadow: 4px 4px 0px 0px #0B7749;
+  border: 3px solid #12965E
+}
+
+.Phase-1{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 51.66px;
+  text-align: left;
+}
+
+.website-consomepler{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 31.48px;
+  text-align: left;
+}
+
+.how-to-buy{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 100px;
+  text-align: left;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+  text-shadow: 3px 4px 0px #000000;
+  color: #fff;
+}
+
+.my-section{
+  background: #44B7FF;
+  border: 2px solid #000000
+}
+
+.itemsone {
+  background: #66C4FF;
+  border-width: 2px 2px 5px 2px; /* Corrected */
+  border-style: solid;
+  border-color: #1A1A1A;
+  box-shadow: 4.25px 4.25px 0px 2.75px #FFFFFF80 inset, /* Add a comma between box-shadow definitions */
+              5px 5px 0px 0px #00000014;
+}
+
+
+.createatermark{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+}
+
+.downloadasolana{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 28.6px;
+}
+
+.onetowthree{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #1A1A1A14;
+
+}
+
+.partner{
+  font-family: "BenzGrotesk";
+  font-weight: 850;
+  line-height: 100px;
+  text-align: center;
+}
+
+.logoimagesone {
+  background: #F2F2F233;
+  border-width: 2.83px 2.83px 7.07px 2.83px; /* Corrected */
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 
+    4.24px 4.24px 1.41px 0px #00000033, /* Outer shadow */
+    4.6px 4.6px 5.66px 3.89px #FFFFFF80 inset; /* Inner shadow */
+}
+
+.footerlawstcommit{
+  font-family: "Patrick Hand SC";
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
 }
