@@ -9,7 +9,7 @@ const Navbar = () => {
     const [toggle, setToggle] =useState(true);
     return (
         <div className='overlayheaderone border-b-[1px] border-[#000] border-opacity-[0.1]'>
-            <div className='container mx-auto py-[20px] lg:py-[26px] relative'>
+            <div className='container mx-auto py-[20px] lg:py-[26px] relative px-[24px] sm:px-0'>
                 <div className='flex  justify-between items-center'>
                         <div className='relative z-50'>
                             <Link className=' flex justify-center items-center logo-image-text gap-[12px] text-[20px] sm:text-[28px] md:text-[30px] lg:text-[32px]  xl:text-[35px] 2xl:text-[38.58px]' to="/"><img className='w-[35px] sm:w-[40px] md:w-[45px] lg:w-[50px] xl:w-[60px] 2xl:w-[70px]' src={logo} alt=''/> PUGGY</Link>

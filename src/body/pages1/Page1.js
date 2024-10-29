@@ -14,9 +14,9 @@ const Page1 = () => {
     return (
         <div className='pages1backgrouondimages pt-[50px] sm:pt-[70px] md:pt-[90px] lg:pt-[100px] xl:pt-[110px] 2xl:pt-[120px] pb-[40px] lg:pb-[50px] 2xl:pb-[60px] relative'>
             <div className="">
-                <h2 className='text-center aoutsection mb-[44px]'>About us</h2>
+                <h2 className='text-center aoutsection mb-[44px] text-[40px] sm:text-[45px] md:text-[55px] lg:text-[60px] xl:text-[80px] 2xl:text-[100px]'>About us</h2>
             </div>
-            <div className="container mx-auto overflow-hidden">
+            <div className="container mx-auto overflow-hidden sm:px-[20px] px-[24px]">
                 {/* Swiper container */}
                 <Swiper
                     ref={swiperRef} // Attach the ref here
@@ -53,9 +53,9 @@ const Page1 = () => {
                     <SwiperSlide>
                         <div className="relative ">
                             <img className=' w-screen z-0' src={imagesone} alt="Puggy" />
-                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[85px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[63px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
+                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[60px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[45px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
                                 <h2 className='slidepoggy pt-[20px]  sm:pt-[15px] md:pt-[20px] xl:pt-[27px] pb-[6px] lg:pb-[8px] text-[30px] md:text-[28px] xl:text-[35px] uppercase'>Puggy</h2>
-                                <p className='slidepoggypragraph md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[20px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[30px] md:pb-auto px-[5%] sm:px-[10%] md:px-[0] md:px-auto'>
+                                <p className='slidepoggypragraph leading-[20px] md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[18px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[15px] md:pb-auto px-[8px] sm:px-[10%] md:px-[0] md:px-auto'>
                                     Spartan Pudgy is a fearless warrior, unstoppable in any battle. With unmatched insight and endurance, he fights for glory, where defeat is never an option.
                                 </p>
                             </div>
@@ -66,9 +66,9 @@ const Page1 = () => {
                     <SwiperSlide>
                         <div className="relative ">
                             <img className=' w-screen z-0' src={imagesone} alt="Puggy" />
-                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[85px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[63px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
+                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[60px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[45px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
                                 <h2 className='slidepoggy pt-[20px]  sm:pt-[15px] md:pt-[20px] xl:pt-[27px] pb-[6px] lg:pb-[8px] text-[30px] md:text-[28px] xl:text-[35px] uppercase'>Puggy</h2>
-                                <p className='slidepoggypragraph md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[20px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[30px] md:pb-auto px-[5%] sm:px-[10%] md:px-[0] md:px-auto'>
+                                <p className='slidepoggypragraph leading-[20px] md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[18px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[15px] md:pb-auto px-[8px] sm:px-[10%] md:px-[0] md:px-auto'>
                                     Spartan Pudgy is a fearless warrior, unstoppable in any battle. With unmatched insight and endurance, he fights for glory, where defeat is never an option.
                                 </p>
                             </div>
@@ -79,9 +79,9 @@ const Page1 = () => {
                     <SwiperSlide>
                         <div className="relative ">
                             <img className=' w-screen z-0' src={imagesone} alt="Puggy" />
-                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[85px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[63px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
+                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[60px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[45px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
                                 <h2 className='slidepoggy pt-[20px]  sm:pt-[15px] md:pt-[20px] xl:pt-[27px] pb-[6px] lg:pb-[8px] text-[30px] md:text-[28px] xl:text-[35px] uppercase'>Puggy</h2>
-                                <p className='slidepoggypragraph md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[20px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[30px] md:pb-auto px-[5%] sm:px-[10%] md:px-[0] md:px-auto'>
+                                <p className='slidepoggypragraph leading-[20px] md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[18px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[15px] md:pb-auto px-[8px] sm:px-[10%] md:px-[0] md:px-auto'>
                                     Spartan Pudgy is a fearless warrior, unstoppable in any battle. With unmatched insight and endurance, he fights for glory, where defeat is never an option.
                                 </p>
                             </div>
@@ -90,9 +90,9 @@ const Page1 = () => {
                     <SwiperSlide>
                         <div className="relative ">
                             <img className=' w-screen z-0' src={imagesone} alt="Puggy" />
-                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[85px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[63px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
+                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[60px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[45px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
                                 <h2 className='slidepoggy pt-[20px]  sm:pt-[15px] md:pt-[20px] xl:pt-[27px] pb-[6px] lg:pb-[8px] text-[30px] md:text-[28px] xl:text-[35px] uppercase'>Puggy</h2>
-                                <p className='slidepoggypragraph md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[20px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[30px] md:pb-auto px-[5%] sm:px-[10%] md:px-[0] md:px-auto'>
+                                <p className='slidepoggypragraph leading-[20px] md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[18px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[15px] md:pb-auto px-[8px] sm:px-[10%] md:px-[0] md:px-auto'>
                                     Spartan Pudgy is a fearless warrior, unstoppable in any battle. With unmatched insight and endurance, he fights for glory, where defeat is never an option.
                                 </p>
                             </div>
@@ -101,9 +101,9 @@ const Page1 = () => {
                     <SwiperSlide>
                         <div className="relative ">
                             <img className=' w-screen z-0' src={imagesone} alt="Puggy" />
-                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[85px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[63px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
+                            <div className="absolute z-[1] px-[16px] sm:px-[18px] md:px-[20px] lg:px-[22px] xl:px-[25px] 2xl:px-[27px] bg-[#E9FEFFCC] bottom-[60px] sm:bottom-[100px] md:bottom-[51px] xl:bottom-[68px] 2xl:bottom-[79px] w-[78%] ml-[45px] sm:ml-[75.5px] md:ml-[38px] xl:ml-[48px] 2xl:ml-[58px] rounded-b-[20px] text-center">
                                 <h2 className='slidepoggy pt-[20px]  sm:pt-[15px] md:pt-[20px] xl:pt-[27px] pb-[6px] lg:pb-[8px] text-[30px] md:text-[28px] xl:text-[35px] uppercase'>Puggy</h2>
-                                <p className='slidepoggypragraph md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[20px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[30px] md:pb-auto px-[5%] sm:px-[10%] md:px-[0] md:px-auto'>
+                                <p className='slidepoggypragraph leading-[20px] md:leading-[24px] lg:leading-[20px] xl:leading-[24px] 2xl:leading-[28.6px] text-[18px] sm:text-[24px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] pb-[15px] md:pb-auto px-[8px] sm:px-[10%] md:px-[0] md:px-auto'>
                                     Spartan Pudgy is a fearless warrior, unstoppable in any battle. With unmatched insight and endurance, he fights for glory, where defeat is never an option.
                                 </p>
                             </div>
@@ -119,7 +119,7 @@ const Page1 = () => {
                     <div className="custom-next w-[30px] lg:w-[52px] 2xl:w-[62px] h-[30px] lg:h-[52px] 2xl:h-[62px] cursor-pointer hidden lg:block">
                         <img src={previous} alt="" />
                     </div>
-                    <img className=' absolute mt-[170px] left-[50%] translate-x-[-50%] ' src={oerlayimage} alt="" />
+                    <img className=' absolute mt-[170px] left-[50%] bottom-[-7%] sm:bottom-auto translate-x-[-50%] w-[50%] sm:w-auto' src={oerlayimage} alt="" />
                 </div>
                 
             </div>

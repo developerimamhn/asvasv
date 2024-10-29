@@ -109,7 +109,6 @@
   -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #00000080;
   font-family: "BenzGrotesk";
-  font-size: 100px;
   font-weight: 850;
   line-height: 100px;
   text-align: center;
@@ -197,7 +196,6 @@
 .edive-in-discover-p{
   font-family: "Patrick Hand SC";
   font-weight: 400;
-  line-height: 39px;
   text-align: left;
 
 }
